@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>modaal venster</title>
+</head>
+<body>
+<h1>Modaal venster</h1>
+<div class="wrapper">
+    <!--button1-->
+    <button id="fotoZaandam" class="button"><img src="afb/zaandam.jpg" alt="plaatje zaandam" class="plaatjeKlein">
+    </button>
+
+    <!--button2-->
+    <button id="fotoAmsterdam" class="button"><img src="afb/amsterdam.jpg" alt="plaatje amsterdam" class="plaatjeKlein">
+    </button>
+
+    <!--button3-->
+    <button id="fotoKoog" class="button"><img src="afb/koogaandezaan.jpg" alt="" class="plaatjeKlein"></button>
+</div>
+
+<!--de eerste afbeelding-->
+<div id="zaandamModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="sluitZaandam">&times;</span>
+            <h2>Een mooi plaatje van Zaandam</h2>
+        </div>
+        <div class="modal-body">
+            <img src="afb/zaandam.jpg" class="plaatjeGroot" alt="">
+            <div class="links">
+                <h2>Zaandam</h2>
+                <p>
+                    Zaandam is een stad in de provincie Noord-Holland, Nederland. Het is de belangrijkste stad van de
+                    gemeente Zaanstad, en kreeg stadsrechten in 1811. Het is gelegen aan de Zaan, vlakbij het
+                    Noordzeekanaal, en het ligt dicht bij Amsterdam.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--de tweede afbeelding-->
+<div id="amsterdamModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="sluitAmsterdam">&times;</span>
+            <h2>Een minder mooi plaatje van Amsterdam</h2>
+        </div>
+        <div class="modal-body">
+            <img src="afb/amsterdam.jpg" class="plaatjeGroot" alt="">
+            <div class="links">
+                <h2>Amsterdam</h2>
+                <p>
+                    Amsterdam is de hoofdstad van Nederland, bekend om zijn artistieke erfgoed, uitgebreid kanaalsysteem
+                    en smalle huizen met gevelgevels, legaten van de 17e-eeuwse Gouden Eeuw van de stad. Het
+                    Museumdistrict herbergt het Van Gogh Museum, werken van Rembrandt en Vermeer in het Rijksmuseum, en
+                    moderne kunst in het Stedelijk. Fietsen is de sleutel tot het karakter van de stad en er zijn
+                    talloze fietspaden.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--de derde afbeelding-->
+<div id="koogModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="sluitKoog">&times;</span>
+            <h2>Een mooi plaatje van Koog aan de Zaan</h2>
+        </div>
+        <div class="modal-body">
+            <div class="links">
+                <h2>Koog aan de Zaan</h2>
+                <p>
+                    Koog aan de Zaan is een stad in de Nederlandse provincie Noord-Holland. Het maakt deel uit van de
+                    gemeente Zaanstad en ligt ongeveer 11 km ten noordwesten van Amsterdam.</p>
+            </div>
+            <img src="afb/koogaandezaan.jpg" class="plaatjeGroot" alt="">
+        </div>
+    </div>
+</div>
+</body>
+<script src="main.js"></script>
+</html>
